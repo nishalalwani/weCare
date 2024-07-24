@@ -1,0 +1,189 @@
+
+
+
+  .wecare-logo{
+    height: 4rem;
+  }
+
+
+  
+  .password-input-wrapper {
+    display: flex;
+    align-items: center; 
+  }
+  
+  .password-input-wrapper input {
+    flex: 1; 
+    padding-right: 32px; 
+    position: relative;
+  }
+  
+  .password_toggle {
+    position: absolute;
+    right: 7rem;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    /* top: 2.95rem; */
+    color: black;
+}
+  
+  
+  
+  .btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+  }
+
+  .custom-form-container {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+  }
+
+  
+  
+  .custom-form-container input,
+  .custom-form-container select {
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+  }
+  
+  .custom-form-container .form-label {
+    color: #bbb;
+  }
+
+  .custom-form-container {
+    background-color: #1c1c1c;
+    padding: 20px;
+    border-radius: 10px;
+    color: #fff;
+  }
+  
+  .custom-form-container input,
+  .custom-form-container select {
+    background-color: #333;
+    border: 1px solid #444;
+    color: #fff;
+  }
+  
+  .custom-form-container .form-label {
+    color: #bbb;
+  }
+  
+  
+  .custom-form-container .btn-success {
+    background-color: #28a745;
+    border: none;
+  }
+
+
+
+.dashboard {
+  padding-top: 20px;
+}
+
+.card {
+  background-color: #2d2d2d;
+  border: none;
+}
+
+.card-body h2 {
+  font-size: 2rem;
+}
+
+.table {
+  margin-top: 20px;
+}
+
+.table thead th {
+  border-bottom: 2px solid #444;
+}
+
+.table tbody td {
+  vertical-align: middle;
+}
+
+.table tbody td .btn {
+  margin-right: 5px;
+  margin-bottom: 7px;
+}
+
+.text-success {
+  color: #28a745 !important;
+}
+
+.text-warning {
+  color: #ffc107 !important;
+}
+
+.text-danger {
+  color: #dc3545 !important;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.pagination .page-link {
+  color: #fff;
+  background-color: #343a40;
+  border: 1px solid #343a40;
+}
+
+.navbar-dark .navbar-brand, .navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link img {
+  border-radius: 50%;
+}
+
+.MuiBox-root {
+  background-color: #202020 !important;
+}
+
+.MuiTypography-root {
+  color: white;
+}
+
+.MuiInputBase-root, .MuiFormLabel-root {
+  color: white !important;
+}
+
+.MuiOutlinedInput-root {
+  fieldset {
+    border-color: white !important;
+  }
+}
+
+.MuiButtonBase-root {
+  color: white;
+}
+
+.MuiButton-containedSuccess {
+  background-color: #28a745;
+}
+
+.MuiButton-containedSuccess:hover {
+  background-color: #218838;
+}
+.table th, .table td {
+  white-space: nowrap;
+}
+
+  
