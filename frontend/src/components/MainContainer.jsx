@@ -17,8 +17,8 @@ const MainContainer = () => {
      <div  style={{background:`linear-gradient(rgb(1 12 28), #000000a1) ,url(${backImg})`,backgroundRepeat:'no-repeat',backgroundPosition:'center',backgroundSize:'cover'}}>
     <Toaster message={toasterMessage} severity={severityVal} open={snackbarOpen} handleClose={handleSnackbarClose} />
     <Routes>
-      <Route path='/' element={<SignUp/>}/>
-      <Route path='/login' element={<Login/>}/>
+      <Route path='/' element={<Login/>}/>
+      <Route path='/signup' element={<SignUp/>}/>
       <Route path='/signup' element={<SignUp/>}/>
       <Route path='/welcome' element={<Welcome/>}/>
       <Route path='/dashboard' element={<Dashboard/>}/>

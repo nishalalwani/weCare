@@ -200,7 +200,7 @@ const SignUp = () => {
                 <input name="contact" type="text" className="form-control my-2" id="phoneNumber" placeholder="+91 8762345267" onChange={onChangeHandler} />
               </div>
               <button type="submit" className="btn btn-success w-100 my-4">Get Started</button>
-              <Link to={"/login"} className='text-white'>Already have an account? Login</Link>
+              <Link to={"/"} className='text-white'>Already have an account? Login</Link>
             </form>
           </div>
           <div className="col-md-6 d-flex justify-content-center align-items-center p-0 d-md-block d-none">

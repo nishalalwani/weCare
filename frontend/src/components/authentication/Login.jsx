@@ -107,7 +107,7 @@ const Login = () => {
 
       <div className="form-group mb-3">
         <label htmlFor="email">Email address <span className="text-danger">*</span></label>
-        <input name="adminEmail" type="email" className="form-control my-2" id="email" placeholder="adrian@jsmastery.pl" onChange={adminChangeHandler} />
+        <input name="adminEmail" type="email" className="form-control my-2" id="email" placeholder="adrian@jsmastery.pl" onChange={adminChangeHandler} value={adminData.adminEmail} />
       </div>
       <div className="form-group mb-3 ">
         <label htmlFor="password">Password <span className="text-danger">*</span></label>
@@ -119,6 +119,7 @@ const Login = () => {
       id="password"
       placeholder="Enter password"
       onChange={adminChangeHandler}
+      value={adminData.password}
       required
     />
     <span className='password_toggle' onClick={handleClick}>
@@ -149,7 +150,8 @@ const Login = () => {
   
       <button type="submit" className="btn btn-success w-100 my-4" onClick={handleUserLogin}>Get Started</button>
       <Link to={'/signup'}>Not have an account? Sign up</Link><br/>
-<Link   onClick={handleToggle}  className='text-white '>Login as Admin</Link>
+<Link   onClick={()=>{handleToggle(); setAdminData({adminEmail:"admin@gmail.com",password:"adminpassword"})}}  className='text-white '>Get Admin Credentials</Link>
+
     </form>
   </div></>
   
